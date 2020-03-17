@@ -1,5 +1,5 @@
 {
-    "input_size": 11,
-    "hidden_size": 64,
+    "input_size": 1,
+    "hidden_size": 4,
     "T": 10
 }
