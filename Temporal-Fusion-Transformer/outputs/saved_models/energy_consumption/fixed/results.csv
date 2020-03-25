@@ -1,0 +1,3 @@
+,"[2, 31, 7]_[('ID', <DataTypes.CATEGORICAL: 1>, <InputTypes.ID: 4>), ('date', <DataTypes.DATE: 2>, <InputTypes.TIME: 5>), ('Values', <DataTypes.REAL_VALUED: 0>, <InputTypes.TARGET: 0>), ('Prev_week', <DataTypes.REAL_VALUED: 0>, <InputTypes.STATIC_INPUT: 3>), ('Year', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>), ('Day_of_month', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>), ('Day_of_week', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>)]_0.3_5_150_[0]_5_[0, 1, 2]_[1]_0.01_0.01_16_outputs/saved_models/energy_consumption/fixed_4_5_100_1_1_1_[1]_7"
+loss,0.7673409879207611
+info,

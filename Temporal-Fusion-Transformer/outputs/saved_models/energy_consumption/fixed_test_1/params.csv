@@ -1,0 +1,22 @@
+,"[2, 31, 7]_[('ID', <DataTypes.CATEGORICAL: 1>, <InputTypes.ID: 4>), ('date', <DataTypes.DATE: 2>, <InputTypes.TIME: 5>), ('Values', <DataTypes.REAL_VALUED: 0>, <InputTypes.TARGET: 0>), ('Prev_week', <DataTypes.REAL_VALUED: 0>, <InputTypes.STATIC_INPUT: 3>), ('Year', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>), ('Day_of_month', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>), ('Day_of_week', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>)]_0.3_5_160_[0]_5_[0, 1, 2]_[1]_0.01_0.01_16_outputs/saved_models/energy_consumption/fixed_4_5_100_1_1_1_[1]_7"
+dropout_rate,0.3
+hidden_layer_size,160
+learning_rate,0.01
+max_gradient_norm,0.01
+minibatch_size,16
+model_folder,outputs/saved_models/energy_consumption/fixed
+num_heads,1
+stack_size,1
+total_time_steps,7
+num_encoder_steps,5
+num_epochs,100
+early_stopping_patience,5
+multiprocessing_workers,4
+column_definition,"[('ID', <DataTypes.CATEGORICAL: 1>, <InputTypes.ID: 4>), ('date', <DataTypes.DATE: 2>, <InputTypes.TIME: 5>), ('Values', <DataTypes.REAL_VALUED: 0>, <InputTypes.TARGET: 0>), ('Prev_week', <DataTypes.REAL_VALUED: 0>, <InputTypes.STATIC_INPUT: 3>), ('Year', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>), ('Day_of_month', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>), ('Day_of_week', <DataTypes.CATEGORICAL: 1>, <InputTypes.KNOWN_INPUT: 2>)]"
+input_size,5
+output_size,1
+category_counts,"[2, 31, 7]"
+input_obs_loc,[0]
+static_input_loc,[1]
+known_regular_inputs,[1]
+known_categorical_inputs,"[0, 1, 2]"
